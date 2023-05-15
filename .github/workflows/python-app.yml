@@ -31,7 +31,7 @@ jobs:
     - name: Lint with Bandit
       run: |
         bandit -r . -x test_*.py 
-        continue-on-error: true
+      continue-on-error: true
     - name: pytest
       run: |
         pytest
