@@ -68,3 +68,5 @@ You should have at least the following versions installed:
 
 You will also need sqlite installed for the database backend.
 
+edit
+
