@@ -32,4 +32,6 @@ jobs:
       run: |
         bandit -r . -x test_*.py 
         continue-on-error: true
+    - name: pytest
+      run: |
         pytest
